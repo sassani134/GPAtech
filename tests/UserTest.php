@@ -14,7 +14,8 @@ class UserTest extends TestCase
         $user->setNom('Doe');
         $user->setPrenom('John');
         $user->setEmail('test@example.com');
-
+        $user->setCreatedAt('');
+        $user->setUpdatedAt('');
 
         $this->assertSame('Doe', $user->getNom());
         $this->assertSame('John', $user->getPrenom());
