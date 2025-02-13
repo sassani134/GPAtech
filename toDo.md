@@ -5,12 +5,12 @@ Symfony 7.2 sous PHP 8.3
 SQL Doctrines
 
 ## Tests(optionnel)
-- [ ] Test Entite
+- [x] Test Entite
     - Tests Unitaires
     - Les ecrires, obtenire un echec
     - Utilisateur nom prenom email horodater
     
-- [ ] Test Routes API
+- [x] Test Routes API
         - Applications Tests
         - GET /api/users : Récupérer tous les utilisateurs (sans pagination)
         - POST /api/users : Ajouter un utilisateur.
@@ -22,8 +22,8 @@ SQL Doctrines
 
 ### Entite
 - [ ] Entite
-    - [ ]Utilisateur nom prenom email horodater
-    - Les tests fonctionne
+    - [ ] Utilisateur nom prenom email horodater
+    - [ ] Les tests fonctionne
 
 ### API
 - [ ] API
